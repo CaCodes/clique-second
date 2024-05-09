@@ -36,7 +36,7 @@ export default function DashboardHome() {
     <div className="dashboard_home">
       <div className="mb_md">
         <h2 className="capitalize">Welcome {getFirstWord(user.fullName)} 😃</h2>
-        <p>What will you be learning today?</p>
+        <p>These are the curses you are currently learning</p>
       </div>
       {loading ? (
         <div className="mt_md">

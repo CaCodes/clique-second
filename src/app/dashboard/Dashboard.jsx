@@ -27,7 +27,7 @@ export default function Dashboard() {
             </Link>
           </div>
           <div className="custom_align gap_md">
-            <Link target="_blank" to={"https://google.com"}><p className="semibold sm_hidden">My Courses</p></Link>
+            <p className="semibold sm_hidden">Courses</p>
             <div className="custom_align name_card">
               {/* Profile pic */}
               <img src={userPic} alt="user dp" className="circle_img md_hidden" onClick={() => setShowDropdown(!showDropdown)} />
@@ -39,7 +39,7 @@ export default function Dashboard() {
               </div>
             </div>
             {showDropdown && <div className="dropdown md_hidden">
-              <Link target="_blank" to={"https://google.com"}><p className="dropdown_text">My Courses</p></Link>
+              <p className="dropdown_text">Courses</p>
               <p className="dropdown_text" onClick={logout}>Logout</p>
               <div className="custom_align name_card_sm">
                 {/* Profile pic */}
