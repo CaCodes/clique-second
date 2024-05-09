@@ -36,6 +36,7 @@ export default function Home() {
   }
 
   useEffect(() => {
+    console.log("Token check", token);
     if (token) {
       setLoading(true)
       let data = token.split("CliQueX*")
